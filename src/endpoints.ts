@@ -189,32 +189,6 @@ export const endpoints: { [key: string]: Endpoint } = {
   "healthMin": 200,
   "healthMax": 300,
   "imageUrl": "https://example.com/image.webp",
-  "loot": [
-    {
-      "item": {
-        "qualityAdjectives": [
-          "Lowest",
-          "Low",
-          "Middle",
-          "High",
-          "Highest"
-        ],
-        "level": 1,
-        "imageUrl": "https://example.com/image.webp",
-        "type": "Material",
-        "name": "Metal",
-        "description": "A description",
-        "worthMultiplier": 15,
-        "skillEffects": [],
-        "equipmentType": "Unknown"
-      },
-      "chance": 30,
-      "quantityMin": 2,
-      "quantityMax": 5,
-      "qualityMin": 2,
-      "qualityMax": 4
-    }
-  ],
   "createdAt": "2021-01-01T00:00:00.000Z",
   "updatedAt": "2021-01-01T00:00:00.000Z",
 },
@@ -229,32 +203,6 @@ export const endpoints: { [key: string]: Endpoint } = {
   "healthMin": 50,
   "healthMax": 60,
   "imageUrl": "https://example.com/image.webp",
-  "loot": [
-    {
-      "item": {
-        "qualityAdjectives": [
-          "Lowest",
-          "Low",
-          "Middle",
-          "High",
-          "Highest"
-        ],
-        "level": 1,
-        "imageUrl": "https://example.com/image.webp",
-        "type": "Material",
-        "name": "Metal",
-        "description": "A description",
-        "worthMultiplier": 15,
-        "skillEffects": [],
-        "equipmentType": "Unknown"
-      },
-      "chance": 50,
-      "quantityMin": 1,
-      "quantityMax": 2,
-      "qualityMin": 0,
-      "qualityMax": 3
-    }
-  ],
   "createdAt": "2021-01-01T00:00:00.000Z",
   "updatedAt": "2021-01-01T00:00:00.000Z",
 }
@@ -274,26 +222,6 @@ export const endpoints: { [key: string]: Endpoint } = {
   "healthMin": 50,
   "healthMax": 60,
   "imageUrl": "https://example.com/image.webp",
-  "loot": [
-    {
-      "item": {
-        "qualityAdjectives": ["Lowest", "Low", "Middle", "High", "Highest"],
-        "level": 1,
-        "imageUrl": "https://example.com/image.webp",
-        "type": "Material",
-        "name": "Metal",
-        "description": "A description",
-        "worthMultiplier": 15,
-        "skillEffects": [],
-        "equipmentType": "Unknown"
-      },
-      "chance": 50,
-      "quantityMin": 1,
-      "quantityMax": 2,
-      "qualityMin": 0,
-      "qualityMax": 3
-    }
-  ],
   "createdAt": "2021-01-01T00:00:00.000Z",
   "updatedAt": "2021-01-01T00:00:00.000Z",
 }`,
