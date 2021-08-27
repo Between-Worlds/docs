@@ -13,7 +13,7 @@ export function EndPoint({ path }: { path: string }): JSX.Element {
       <section>
         <h3>Base URL</h3>
         <span class="mono">
-          <a href={`${API_BASE_URL}${path}`} target="_blank">
+          <a href={`${API_BASE_URL}${path}`} rel="noopener" target="_blank">
             {API_BASE_URL}
             {path}
           </a>
