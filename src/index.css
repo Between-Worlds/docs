@@ -1,0 +1,153 @@
+:root {
+  --highlight-color: #fd5f92;
+  --mono-font-family: Consolas,Liberation Mono,Menlo,Courier,monospace;
+  --primary-bg-color: #151521;
+  --secondary-bg-color: #1e1e2f;
+  --success-color: #8be0ae;
+  --primary-color: #ffffff;
+  --secondary-color: #acadb3;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: var(--primary-bg-color);
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.endpoint * {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5 {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#app {
+  min-height: 100%;
+  color: var(--primary-color);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  max-width: 1200px;
+  width: 100%;
+  padding: 2rem;
+}
+
+pre {
+  border-left: 3px solid var(--primary-color);
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0 0 24px;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1rem;
+  transition: all 0.1s ease-in-out;
+  width: 100%;
+  background: var(--primary-bg-color);
+}
+
+code {
+  white-space: pre;
+}
+
+pre:hover {
+  border-left: 3px solid var(--highlight-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+  color: var(--highlight-color);
+}
+
+.hash-link {
+  opacity: 10%;
+  text-decoration: none;
+}
+
+.menu {
+  padding: 1rem 0;
+}
+
+.endpoint {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: var(--secondary-bg-color);
+  border-radius: 5px;
+}
+
+.endpoint section {
+  margin-bottom: 1rem;
+}
+
+.endpoint .hash-link:hover {
+  opacity: 100%;
+  color: var(--primary-color);
+}
+
+.endpoint h3 {
+  color: var(--secondary-color);
+}
+
+.endpoint .method {
+  border: 2px solid var(--success-color);
+  color: var(--success-color);
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.endpoint .example {
+  margin-bottom: 1rem;
+}
+
+.endpoint .parameter {
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.mono {
+  font-family: var(--mono-font-family);
+}
+
+.mono.mono-inline {
+  background: var(--secondary-bg-color);
+  padding: 0 3px;
+}
+
+.go-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  border: 3px solid var(--primary-bg-color);
+  border-radius: 0.5rem;
+  background: var(--secondary-bg-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.go-to-top:hover {
+  background: var(--highlight-color);
+}

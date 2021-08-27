@@ -1,0 +1,33 @@
+{
+  "name": "between-worlds-docs",
+  "author": {
+    "name": "Athano",
+    "email": "system@betweenworlds.net",
+    "url": "https://www.betweenworlds.net"
+  },
+  "description": "Between Worlds Documentation",
+  "version": "1.0.0",
+  "private": "false",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint -c .eslintrc --ext .ts,.tsx src/",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.5.13"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.1",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "2.0.4"
+  },
+  "license": "MIT"
+}
