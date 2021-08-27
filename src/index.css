@@ -129,6 +129,7 @@ a:hover {
 
 .mono {
   font-family: var(--mono-font-family);
+  word-break: break-all;
 }
 
 .mono.mono-inline {
