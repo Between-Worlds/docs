@@ -66,11 +66,6 @@ pre:hover {
   border-left: 3px solid var(--highlight-color);
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
 a {
   color: var(--primary-color);
   cursor: pointer;
@@ -88,6 +83,16 @@ a:hover {
 
 .menu {
   padding: 1rem 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .endpoint {
