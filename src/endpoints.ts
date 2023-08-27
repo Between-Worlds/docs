@@ -64,50 +64,45 @@ export const endpoints: { [key: string]: Endpoint } = {
         description: 'To get a specific user with the name PlayerName and their equipment',
         url: `${API_BASE_URL_V1}users?${AUTH_EXAMPLE}&name=PlayerName&equipment`,
         response: `{
-  "createdAt": "2021-01-01T00:00:00.000Z",
-  "loggedIn": false,
-  "roles": ["user", "admin", "supporter"],
-  "name": "PlayerName",
+  "createdAt": "2022-05-21T17:09:18.537Z",
   "equipment": [
     {
-      "itemSchematic": {
-        "qualityAdjectives": [
-          "Low",
-          "Lowest",
-          "Middle",
-          "High",
-          "Highest"
-        ],
-        "level": 5,
-        "imageUrl": "https://example.com/image.webp",
-        "type": "Equipment",
-        "name": "Hood",
-        "description": "A description",
-        "worthMultiplier": 50,
-        "equipmentType": "Head"
-      },
-      "quality": 0
+      "itemName": "Shirt",
+      "quality": 0,
+      "moduleSlots": 0,
+      "modules": []
     },
     {
-      "itemSchematic": {
-        "qualityAdjectives": [
-          "Low",
-          "Lowest",
-          "Middle",
-          "High",
-          "Highest"
-        ],
-        "level": 5,
-        "imageUrl": "https://example.com/image.webp",
-        "type": "Equipment",
-        "name": "Leggings",
-        "description": "A description",
-        "worthMultiplier": 50,
-        "equipmentType": "Legs"
-      },
-      "quality": 0
+      "itemName": "Shorts",
+      "quality": 0,
+      "moduleSlots": 0,
+      "modules": []
+    },
+    {
+      "itemName": "Hat",
+      "quality": 0,
+      "moduleSlots": 0,
+      "modules": []
+    },
+    {
+      "itemName": "Boots",
+      "quality": 0,
+      "moduleSlots": 0,
+      "modules": []
+    },
+    {
+      "itemName": "Metal Stick",
+      "quality": 2,
+      "moduleSlots": 0,
+      "modules": []
     }
   ],
+  "roles": [
+    "user",
+    "admin",
+    "editor"
+  ],
+  "name": "Athano"
 }`,
       },
     ],
