@@ -25,10 +25,16 @@ export function EndPoint({ path }: { path: string }): JSX.Element {
           <span class="mono method">{method}</span>
         ))}
       </section>
+      {endpoints[path]?.notes && (
+        <section>
+          <h3>Notes</h3>
+          <p>{endpoints[path]?.notes}</p>
+        </section>
+      )}
       {endpoints[path]?.requiredParameters.length > 0 && (
         <section>
           <h3>Required Parameters</h3>
-          <p>One or more of the following:</p>
+          <p>All of the following:</p>
           {endpoints[path]?.requiredParameters.map((param) => (
             <span class="mono parameter">{param}</span>
           ))}
